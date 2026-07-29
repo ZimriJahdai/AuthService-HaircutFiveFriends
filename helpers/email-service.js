@@ -83,7 +83,7 @@ const createEmailTemplate = ({
         <div class="email-header">
 
           <div class="logo">
-            KINAL <span>BANC</span>
+            Haircut <span>Five Friends</span>
           </div>
 
           <div class="logo-line"></div>
@@ -135,7 +135,7 @@ const createEmailTemplate = ({
           <div class="footer-divider">
 
             <p class="footer-text">
-              Este es un correo automático de Kinal Banc.
+              Este es un correo automático de Haircut Five Friends.
               <br/>
               Nunca compartas tus credenciales ni códigos
               de verificación.
@@ -176,7 +176,7 @@ export const sendVerificationEmail = async (email, name, verificationToken) => {
         </p>
 
         <p>
-          Gracias por registrarte en Kinal Banc.
+          Gracias por registrarte en Haircut Five Friends.
           Para activar tu cuenta necesitamos
           verificar tu correo electrónico.
         </p>
@@ -200,7 +200,7 @@ export const sendVerificationEmail = async (email, name, verificationToken) => {
 
     await sendEmail({
       to: email,
-      subject: 'Verifica tu cuenta | Kinal Banc',
+      subject: 'Verifica tu cuenta | Haircut Five Friends',
       html,
     });
 
@@ -285,7 +285,7 @@ export const sendWelcomeEmail = async (email, name) => {
 
   try {
     const html = createEmailTemplate({
-      title: 'Bienvenido a Kinal Banc',
+      title: 'Bienvenido a Haircut Five Friends',
 
       subtitle: 'Tu cuenta ha sido verificada correctamente.',
 
