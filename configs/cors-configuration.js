@@ -2,6 +2,7 @@ const allowedOrigins = [
   'https://movil-haircutfivefriends-production.up.railway.app',
   'https://authservice-haircutfivefriends-production.up.railway.app',
   'https://frontend-haircutfivefriends-production.up.railway.app',
+  'https://frontend-hair-cut-five-friends.vercel.app',
   'http://localhost:5173',
   'http://localhost:3000',
   'http://localhost:8081',
